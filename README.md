@@ -1,39 +1,74 @@
-# Awesome-Browser-Extension-Testing-Plugins
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Browser Extension Testing & Plugins Banner" width="100%" />
+</p>
 
-## Top Browser Extension Testing & Plugins Ecosystem
+# 🧪 Awesome Browser Extension Testing & Plugins [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Cross-Browser Extension Testing, Developer Tooling & Automated Validation*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.sheelds.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins?style=flat-square&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins?style=flat-square&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins?style=flat-square&color=red" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Browser-Extension-Testing-Plugins?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Browser Extension Testing & Plugins**. These tools help developers build, test, and validate browser extensions across Chrome, Firefox, Edge, and Safari—covering automated end-to-end testing, static analysis, developer dashboards, and cross-browser build pipelines.
+---
 
-**Examples** include BrowserStack Extension Tools, Chrome Web Store Developer Dashboard, Firefox Add-on Developer Hub, Edge Add-ons Hub, Opera Addons Hub, CRXJS, Web-Ext CLI, ExtensionCLI, Plasmo Framework, and Safari Web Extension Converter (the category leaders).
+## 🧭 Executive Summary & SEO Overview
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted extension testing frameworks, cross-browser build tooling, and static validation—ideal for extension developers, QA engineers, and platform teams building transparent, vendor-neutral extension quality pipelines.
+Welcome to the **Awesome Browser Extension Testing & Plugins** directory—a community-maintained compilation of high-performance tools, test automation frameworks, browser extension development kits, and cloud infrastructure platforms. 
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+Whether you are authoring extensions using **Manifest V3 (MV3)**, running **end-to-end (E2E) integration tests** in headless Chromium/Firefox/WebKit with **Playwright**, **Puppeteer**, **Cypress**, or **Selenium WebDriver BiDi**, or automating static compliance checking via **addons-linter**, this repository provides an authoritative guide to modern cross-browser quality assurance.
 
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+### 🔍 Key Capabilities & Search Highlights
+- **Cross-Browser Test Automation**: Automated extension testing on Google Chrome, Mozilla Firefox, Microsoft Edge, Opera, and Apple Safari.
+- **Manifest V3 Readiness**: Validations for declarative net request (`declarativeNetRequest`), offscreen documents, background service workers, and CSP restrictions.
+- **Cloud Infrastructure & Device Clouds**: Scalable grid testing with pre-loaded extensions (`.crx`, `.xpi`, unpacked directories) across real OS devices and virtual machines.
+- **Mocking & Unit Testing**: Complete stubbing of `chrome.*` and `browser.*` APIs in Jest, Vitest, and Mocha environments.
 
-## SaaS Products
+---
 
-| Platform | Description | Pricing / Limits |
-| --- | --- | --- |
-| **[BrowserStack Extension Tools](https://www.browserstack.com/)** | Cloud testing platform supporting pre-loaded Chrome/Edge extensions from the Web Store or local `.zip`/`.crx` builds (up to 100 MB) on Windows and macOS; enables testing in-development extensions across browser/OS combinations before publishing, with Playwright automation support via `chromefortesting` for Chrome 137+ extension loading restrictions. | Commercial (Free trial available with limited test minutes) |
-| **[Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/devconsole)** | Google's official publishing console with verified uploads (RSA key signing to restrict releases), staged rollouts for 10k+ user extensions, trusted tester distribution, and beta labeling requirements. | $5 one-time registration fee; no recurring charge |
-| **[Firefox Add-on Developer Hub](https://addons.mozilla.org/developers/)** | Mozilla's AMO developer console for submitting, managing, and signing Firefox extensions; pairs with `web-ext` CLI for local build, run, and lint workflows. | Free (Open submission and automated validation) |
-| **[Edge Add-ons Hub](https://partner.microsoft.com/dashboard/microsoftedge/)** | Microsoft's partner center for publishing and managing Edge extensions, with certification workflows and store listing management. | Free developer account for extension submissions |
-| **[Opera Addons Hub](https://addons.opera.com/developer/)** | Opera's developer portal for submitting and managing Opera browser extensions and review cycles. | Free submission and review process |
-| **[Plasmo Cloud](https://www.plasmo.com/)** | Cloud extension workflows offering automated cross-browser packaging, team deployments, and submission pipelines. | Free tier available; paid team tiers for scale |
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS Products](#️-saas-products)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
 
-## Open-Source GitHub Projects
+---
 
-*Sorted descending by GitHub stars count.*
+## 📊 Sector Overview & Market Dynamics
+
+The global **automated testing software market** is estimated at **$24B–$40B** (projected to exceed **$80B+** by 2034 with a CAGR of ~14–17%), with the specialized **cross-browser testing sub-sector** representing roughly **$1.9B–$2.8B** (~10–12% CAGR).
+
+The browser extension testing and cloud execution sector is **moderately concentrated at the infrastructure level**—where a handful of enterprise test cloud giants (Microsoft/Playwright, BrowserStack, Sauce Labs, and LambdaTest) capture the vast majority of distributed grid runtime demand—yet **highly fragmented at the tooling and developer framework layer**, where independent open-source toolkits (WXT, Plasmo, Extension.js, CRXJS, and community mocks) continuously emerge to bridge rapid browser engine changes, store review policy shifts, and Manifest V3 API migrations.
+
+---
+
+## ☁️ SaaS Products
+
+The following hosted platforms provide dedicated cloud infrastructure, virtual machine grids, real desktop/mobile environments, and developer portal workflows for packaging, testing, and distributing browser extensions.
+
+*Sorted descending by estimated company valuation / market capitalization.*
+
+| Company / Product | Description | Valuation / Scale | Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Edge Add-ons Hub](https://partner.microsoft.com/dashboard/microsoftedge/)** | Microsoft's enterprise partner center providing submission pipelines, store review verification, and automated certification scans for Edge extensions. | **$3.1+ Trillion** (Market Cap) | **Free** ($0 submission) | **Free Forever**: Unlimited extension submissions and developer dashboard access with a standard verified Microsoft Developer account. |
+| **[Google Chrome Web Store Developer Console](https://chrome.google.com/webstore/devconsole)** | Google's primary distribution and developer console featuring automated security scanning, RSA key distribution, staged rollouts, and beta tester channels. | **$2.2+ Trillion** (Alphabet Market Cap) | **$5 one-time** registration fee | **Free Forever After Fee**: Unlimited extension uploads, staged rollouts, and beta tester distribution groups after the one-time $5 verification fee. |
+| **[Apple Safari Web Extension Tools](https://developer.apple.com/documentation/safariservices/safari_web_extensions)** | Apple's official tooling suite including the Xcode extension converter, test harnesses, and App Store distribution pipelines for macOS and iOS Safari extensions. | **$3.4+ Trillion** (Market Cap) | **$99/year** (Apple Developer Program) | **Free Developer Tools**: Xcode and `safari-web-extension-converter` are free forever for local simulation; $99/year required only for App Store distribution and TestFlight. |
+| **[BrowserStack Extension Tools](https://www.browserstack.com/)** | Cloud testing platform supporting pre-loaded Chrome/Edge extensions from Web Stores or local `.zip`/`.crx` builds (up to 100 MB) across real Windows and macOS browsers; includes Playwright/Selenium automation support. | **~$4.08 Billion** (Series B Valuation; ~$225M+ ARR) | Starts at **$29/month** (Live desktop manual) / **$59/month** (Automate parallel session) | **Free Trial Only**: 30 minutes of manual Live testing and 100 minutes of automated testing; Percy visual testing offers a free tier of 5,000 snapshots/month. |
+| **[Sauce Labs](https://saucelabs.com/)** | Cloud-based automated and live testing grid providing cross-browser extension verification, Chrome/Firefox profile pre-loading, and headless execution. | **~$613 Million** (Valuation; ~$100M+ ARR) | Starts at **$39/month** (Live Testing) / **$149/month** (Virtual Device Cloud automation) | **Free Trial Only**: 28-day free trial with 60 testing minutes across up to 3 parallel virtual machines and 50 AI queries; free sponsorship available for open-source projects. |
+| **[LambdaTest](https://www.lambdatest.com/)** | Continuous testing cloud supporting custom browser extension loading in Chrome, Edge, and Firefox with HyperExecute high-speed test orchestration. | **~$400 Million** (Series D Valuation; ~$50M+ ARR) | Starts at **$15/month** (Live Testing) / **$79/month** (Automation parallel test) | **Free Forever Tier**: 60 minutes/month of live real-time browser testing (10 mins per session) and 100 minutes/month of automated testing across standard environments. |
+| **[Plasmo Itero](https://www.plasmo.com/)** | Continuous deployment, automated staging, and beta tester distribution hub designed specifically as a "TestFlight for browser extensions." | **Seed-stage / Indie** (Developer SaaS) | Starts at **$30/month** (Starter tier for up to 2 extensions) | **Free Forever Tier**: Core open-source Plasmo framework is 100% free (MIT); free cloud tier includes community Discord support and GitHub Actions store deployment runners. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Curated open-source testing frameworks, automation runners, build toolkits, and mock libraries. Sorted descending by GitHub stargazers count.*
 
 - **[Playwright](https://github.com/microsoft/playwright)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
   High-performance browser automation library supporting Chromium, Firefox, and WebKit; supports custom extension testing harnesses via `--disable-extensions-except` and `--load-extension` flags, service worker inspection, and background context fixtures.
@@ -95,22 +130,42 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 - **[chrome-extension-test-framework](https://github.com/ibushimaru/chrome-extension-test-framework)** [![GitHub stars](https://img.shields.io/github/stars/ibushimaru/chrome-extension-test-framework?style=social&color=white)](https://github.com/ibushimaru/chrome-extension-test-framework/stargazers)  
   Fast static analysis and verification framework (no browser needed) for validating Manifest V3 compliance, security, CSP restrictions, and file structure in CI.
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+## 🤝 How to Contribute
 
-Star the repo if you find it useful!
+Contributions are warmly welcomed! To suggest a tool, framework, or platform:
 
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Extension testing must account for browser-specific API differences (e.g., `chrome.sidePanel` not available in Safari), manifest version fragmentation (MV2/MV3), and store review policies.
-- Self-hosted open-source testing frameworks require maintenance as browser APIs and store requirements evolve; always validate against target browser versions.
+1. **Fork** the repository.
+2. Create a descriptive feature branch (`git checkout -b feat/add-awesome-tool`).
+3. Add or update the entry in `README.md` following the established formatting guidelines.
+4. Include:
+   - Tool name & GitHub link / homepage link
+   - Accurate, factual 1–2 sentence description
+   - Star badge (for open source) or pricing & free tier parameters (for SaaS)
+5. Submit a **Pull Request** detailing why the project belongs here.
 
 ---
 
-**Made for extension developers, QA engineers, platform teams, and developer tooling builders.**  
-Let's make browser extension testing more open, automated, and cross-browser reliable.
+## 📜 Disclaimer
+
+- This is an **independently curated community list** and does not constitute an endorsement of any particular commercial platform or vendor.
+- Cross-browser extension specifications and browser capabilities evolve frequently (e.g., MV2 deprecation timelines, `sidePanel` and declarative Net Request API differences). Always consult the official developer documentation of Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Browser-Extension-Testing-Plugins&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Browser-Extension-Testing-Plugins&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the **Awesome Browser Extension Testing & Plugins** ecosystem! 🌟
+
+If you found this repository valuable, here is how you can help support its ongoing curation and growth:
+- ⭐ **Star** this repository on GitHub to increase its visibility among developers.
+- 🍴 **Fork** and contribute new tools, testing frameworks, or updated documentation.
+- 📢 **Share** this collection with your fellow engineering teammates, QA teams, and extension developer communities on Twitter/X, LinkedIn, Reddit, or Discord.
+- ☕ **Buy a coffee / Sponsor**: If you'd like to support ongoing open-source curation and development work, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support is immensely appreciated! 🙏

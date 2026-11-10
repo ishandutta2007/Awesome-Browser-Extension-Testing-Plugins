@@ -70,64 +70,64 @@ The following hosted platforms provide dedicated cloud infrastructure, virtual m
 
 *Curated open-source testing frameworks, automation runners, build toolkits, and mock libraries. Sorted descending by GitHub stargazers count.*
 
-- **[Playwright](https://github.com/microsoft/playwright)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
+- **[Playwright](https://github.com/microsoft/playwright)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
   High-performance browser automation library supporting Chromium, Firefox, and WebKit; supports custom extension testing harnesses via `--disable-extensions-except` and `--load-extension` flags, service worker inspection, and background context fixtures.
 
-- **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
+- **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![GitHub_Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
   Node.js library providing a high-level API over the Chrome DevTools Protocol (CDP); frequently used for headless/headful extension automation, background worker debugging, and popup interaction.
 
-- **[Cypress](https://github.com/cypress-io/cypress)** [![GitHub stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
+- **[Cypress](https://github.com/cypress-io/cypress)** [![GitHub_Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
   Next-generation front-end testing tool capable of loading unpacked Chrome extensions via browser launch arguments and validating page-injection behaviors.
 
-- **[Selenium WebDriver](https://github.com/SeleniumHQ/selenium)** [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
+- **[Selenium WebDriver](https://github.com/SeleniumHQ/selenium)** [![GitHub_Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
   Standard browser automation ecosystem supporting cross-browser extension pre-loading via `ChromeOptions.addExtensions` / `FirefoxProfile.addExtension` and WebDriver BiDi extension management.
 
-- **[Plasmo](https://github.com/PlasmoHQ/plasmo)** [![GitHub stars](https://img.shields.io/github/stars/PlasmoHQ/plasmo?style=social&color=white)](https://github.com/PlasmoHQ/plasmo/stargazers)  
+- **[Plasmo](https://github.com/PlasmoHQ/plasmo)** [![GitHub_Stars](https://img.shields.io/github/stars/PlasmoHQ/plasmo?style=social&color=white)](https://github.com/PlasmoHQ/plasmo/stargazers)  
   Modular framework for browser extensions with Parcel bundler, declarative `package.json` manifests, hot-reloading CSUI (Content Scripts UI), and cross-browser target building.
 
-- **[WXT](https://github.com/wxt-dev/wxt)** [![GitHub stars](https://img.shields.io/github/stars/wxt-dev/wxt?style=social&color=white)](https://github.com/wxt-dev/wxt/stargazers)  
+- **[WXT](https://github.com/wxt-dev/wxt)** [![GitHub_Stars](https://img.shields.io/github/stars/wxt-dev/wxt?style=social&color=white)](https://github.com/wxt-dev/wxt/stargazers)  
   Next-generation Vite-powered extension framework featuring file-convention manifest generation, unified cross-browser APIs (Chrome, Edge, Firefox, Safari), TypeScript support, and blazing fast HMR.
 
-- **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![GitHub stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
+- **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![GitHub_Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
   Next-gen browser automation framework for Node.js with native support for Chrome extensions (`--load-extension`), Firefox `.xpi` add-on installation, and WebDriver BiDi `installExtension()` / `uninstallExtension()` APIs.
 
-- **[Extension.js](https://github.com/extension-js/extension.js)** [![GitHub stars](https://img.shields.io/github/stars/extension-js/extension.js?style=social&color=white)](https://github.com/extension-js/extension.js/stargazers)  
+- **[Extension.js](https://github.com/extension-js/extension.js)** [![GitHub_Stars](https://img.shields.io/github/stars/extension-js/extension.js?style=social&color=white)](https://github.com/extension-js/extension.js/stargazers)  
   Zero-config cross-browser framework using `manifest.json` as the single source of truth; includes an internal Rspack bundler, targeted live-reload for popups/content scripts, and automated Safari conversion and build pipelines.
 
-- **[CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools)** [![GitHub stars](https://img.shields.io/github/stars/crxjs/chrome-extension-tools?style=social&color=white)](https://github.com/crxjs/chrome-extension-tools/stargazers)  
+- **[CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/crxjs/chrome-extension-tools?style=social&color=white)](https://github.com/crxjs/chrome-extension-tools/stargazers)  
   Vite plugin for modern Chrome Extension development; parses `manifest.json` directly into the Vite build pipeline with full HMR for content scripts, popups, options pages, and background service workers.
 
-- **[web-ext](https://github.com/mozilla/web-ext)** [![GitHub stars](https://img.shields.io/github/stars/mozilla/web-ext?style=social&color=white)](https://github.com/mozilla/web-ext/stargazers)  
+- **[web-ext](https://github.com/mozilla/web-ext)** [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/web-ext?style=social&color=white)](https://github.com/mozilla/web-ext/stargazers)  
   Mozilla's official CLI to build, run, package, and lint WebExtensions; integrates directly into CI/CD workflows for AMO automated linting and Firefox testing.
 
-- **[vite-plugin-web-extension (aklinker1)](https://github.com/aklinker1/vite-plugin-web-extension)** [![GitHub stars](https://img.shields.io/github/stars/aklinker1/vite-plugin-web-extension?style=social&color=white)](https://github.com/aklinker1/vite-plugin-web-extension/stargazers)  
+- **[vite-plugin-web-extension (aklinker1)](https://github.com/aklinker1/vite-plugin-web-extension)** [![GitHub_Stars](https://img.shields.io/github/stars/aklinker1/vite-plugin-web-extension?style=social&color=white)](https://github.com/aklinker1/vite-plugin-web-extension/stargazers)  
   Vite plugin that facilitates building cross-browser extensions (Manifest V2 and V3) with automatic multi-page setup, asset bundling, and browser launch commands.
 
-- **[playwright-crx](https://github.com/ruifigueira/playwright-crx)** [![GitHub stars](https://img.shields.io/github/stars/ruifigueira/playwright-crx?style=social&color=white)](https://github.com/ruifigueira/playwright-crx/stargazers)  
+- **[playwright-crx](https://github.com/ruifigueira/playwright-crx)** [![GitHub_Stars](https://img.shields.io/github/stars/ruifigueira/playwright-crx?style=social&color=white)](https://github.com/ruifigueira/playwright-crx/stargazers)  
   Playwright port customized to execute and automate testing directly inside Chrome extensions and web extension contexts.
 
-- **[DeploySentinel Recorder](https://github.com/DeploySentinel/Recorder)** [![GitHub stars](https://img.shields.io/github/stars/DeploySentinel/Recorder?style=social&color=white)](https://github.com/DeploySentinel/Recorder/stargazers)  
+- **[DeploySentinel Recorder](https://github.com/DeploySentinel/Recorder)** [![GitHub_Stars](https://img.shields.io/github/stars/DeploySentinel/Recorder?style=social&color=white)](https://github.com/DeploySentinel/Recorder/stargazers)  
   Browser extension that captures real user browser interactions and automatically generates Cypress, Playwright, and Puppeteer test scripts.
 
-- **[addons-linter](https://github.com/mozilla/addons-linter)** [![GitHub stars](https://img.shields.io/github/stars/mozilla/addons-linter?style=social&color=white)](https://github.com/mozilla/addons-linter/stargazers)  
+- **[addons-linter](https://github.com/mozilla/addons-linter)** [![GitHub_Stars](https://img.shields.io/github/stars/mozilla/addons-linter?style=social&color=white)](https://github.com/mozilla/addons-linter/stargazers)  
   Mozilla's open-source suite for validating and linting add-ons against security, compatibility, and manifest structure rules before release.
 
-- **[vite-plugin-web-extension (samrum)](https://github.com/samrum/vite-plugin-web-extension)** [![GitHub stars](https://img.shields.io/github/stars/samrum/vite-plugin-web-extension?style=social&color=white)](https://github.com/samrum/vite-plugin-web-extension/stargazers)  
+- **[vite-plugin-web-extension (samrum)](https://github.com/samrum/vite-plugin-web-extension)** [![GitHub_Stars](https://img.shields.io/github/stars/samrum/vite-plugin-web-extension?style=social&color=white)](https://github.com/samrum/vite-plugin-web-extension/stargazers)  
   A Vite plugin enabling streamlined bundling and live reloading for WebExtension manifest configurations across browsers.
 
-- **[jest-webextension-mock](https://github.com/clarkbw/jest-webextension-mock)** [![GitHub stars](https://img.shields.io/github/stars/clarkbw/jest-webextension-mock?style=social&color=white)](https://github.com/clarkbw/jest-webextension-mock/stargazers)  
+- **[jest-webextension-mock](https://github.com/clarkbw/jest-webextension-mock)** [![GitHub_Stars](https://img.shields.io/github/stars/clarkbw/jest-webextension-mock?style=social&color=white)](https://github.com/clarkbw/jest-webextension-mock/stargazers)  
   A Jest helper module providing complete mocks for the `browser` and `chrome` extension APIs for isolated unit testing.
 
-- **[cypress-browser-extension-plugin](https://github.com/ejoubaud/cypress-browser-extension-plugin)** [![GitHub stars](https://img.shields.io/github/stars/ejoubaud/cypress-browser-extension-plugin?style=social&color=white)](https://github.com/ejoubaud/cypress-browser-extension-plugin/stargazers)  
+- **[cypress-browser-extension-plugin](https://github.com/ejoubaud/cypress-browser-extension-plugin)** [![GitHub_Stars](https://img.shields.io/github/stars/ejoubaud/cypress-browser-extension-plugin?style=social&color=white)](https://github.com/ejoubaud/cypress-browser-extension-plugin/stargazers)  
   Cypress plugin allowing end-to-end testing of browser extensions by streamlining extension bundle loading into Cypress browser instances.
 
-- **[mockzilla-webextension](https://github.com/Lusito/mockzilla-webextension)** [![GitHub stars](https://img.shields.io/github/stars/Lusito/mockzilla-webextension?style=social&color=white)](https://github.com/Lusito/mockzilla-webextension/stargazers)  
+- **[mockzilla-webextension](https://github.com/Lusito/mockzilla-webextension)** [![GitHub_Stars](https://img.shields.io/github/stars/Lusito/mockzilla-webextension?style=social&color=white)](https://github.com/Lusito/mockzilla-webextension/stargazers)  
   TypeScript-first mocking toolkit for WebExtension APIs designed for Jest and Vitest unit test suites.
 
-- **[chrome-extension-testing-mcp](https://github.com/BHUVAN-RJ/chrome-extension-testing-mcp)** [![GitHub stars](https://img.shields.io/github/stars/BHUVAN-RJ/chrome-extension-testing-mcp?style=social&color=white)](https://github.com/BHUVAN-RJ/chrome-extension-testing-mcp/stargazers)  
+- **[chrome-extension-testing-mcp](https://github.com/BHUVAN-RJ/chrome-extension-testing-mcp)** [![GitHub_Stars](https://img.shields.io/github/stars/BHUVAN-RJ/chrome-extension-testing-mcp?style=social&color=white)](https://github.com/BHUVAN-RJ/chrome-extension-testing-mcp/stargazers)  
   Model Context Protocol (MCP) server enabling AI coding agents to test unpacked Chrome extensions interactively via Playwright (service worker logs, popups, storage, badges).
 
-- **[chrome-extension-test-framework](https://github.com/ibushimaru/chrome-extension-test-framework)** [![GitHub stars](https://img.shields.io/github/stars/ibushimaru/chrome-extension-test-framework?style=social&color=white)](https://github.com/ibushimaru/chrome-extension-test-framework/stargazers)  
+- **[chrome-extension-test-framework](https://github.com/ibushimaru/chrome-extension-test-framework)** [![GitHub_Stars](https://img.shields.io/github/stars/ibushimaru/chrome-extension-test-framework?style=social&color=white)](https://github.com/ibushimaru/chrome-extension-test-framework/stargazers)  
   Fast static analysis and verification framework (no browser needed) for validating Manifest V3 compliance, security, CSP restrictions, and file structure in CI.
 
 ---
@@ -142,7 +142,7 @@ Contributions are warmly welcomed! To suggest a tool, framework, or platform:
 4. Include:
    - Tool name & GitHub link / homepage link
    - Accurate, factual 1–2 sentence description
-   - Star badge (for open source) or pricing & free tier parameters (for SaaS)
+   - Stars_Badge (for open source) or pricing & free tier parameters (for SaaS)
 5. Submit a **Pull Request** detailing why the project belongs here.
 
 ---

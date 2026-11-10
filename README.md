@@ -1,6 +1,6 @@
 # Awesome-Browser-Extension-Testing-Plugins
 
-# Top Browser Extension Testing & Plugins Ecosystem
+## Top Browser Extension Testing & Plugins Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Cross-Browser Extension Testing, Developer Tooling & Automated Validation*  
